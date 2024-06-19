@@ -1,5 +1,5 @@
 ARG     BUILD_VERSION
-FROM  	docker.u236.org/homed-zigbee:$BUILD_VERSION
+FROM  	docker.u236.org/homed-zigbee:dev
 COPY    homed-zigbee.conf /root/
 COPY    run.sh /
 RUN     rm -rf /etc/homed
