@@ -1,5 +1,5 @@
 ARG     BUILD_VERSION
-FROM  	docker.u236.org/homed-web:$BUILD_VERSION
+FROM  	docker.u236.org/homed-web:dev
 COPY    homed-web.conf /root/
 COPY    run.sh /
 RUN     rm -rf /etc/homed
