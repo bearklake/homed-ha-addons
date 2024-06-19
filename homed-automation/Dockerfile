@@ -1,5 +1,5 @@
 ARG     BUILD_VERSION
-FROM  	docker.u236.org/homed-automation:$BUILD_VERSION
+FROM  	docker.u236.org/homed-automation:dev
 COPY    homed-automation.conf /root/
 COPY    run.sh /
 RUN     rm -rf /etc/homed
